@@ -19,9 +19,7 @@ credentials
 credentials-binding
 deploy
 display-url-api
-docker-commons
-docker-plugin
-docker-workflow
+docker-build-step
 durable-task
 findbugs
 git
