@@ -1,8 +1,9 @@
 version: '2'
 services:
   master:
-    build: .
-    image: emmamaidana/jenkins:latest
+    container_name: jenkins
+    build: jenkins-devops
+    image: jenkins-devops
     restart: unless-stopped
     hostname: jenkins
     ports:
