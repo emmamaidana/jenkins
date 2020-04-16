@@ -21,6 +21,7 @@ credentials-binding
 deploy
 display-url-api
 docker-build-step
+docker-compose-build-step
 durable-task
 findbugs
 git
