@@ -1,6 +1,6 @@
-version: '2'
+version: '3'
 services:
-  master:
+  jenkins:
     container_name: jenkins
     build: jenkins-devops
     image: jenkins-devops
@@ -11,7 +11,7 @@ services:
       - "50000:50000"
     volumes:
       - $PWD/jenkins_home:/var/jenkins_home
-
-volumes:
-  jenkins_home:
-    driver: local
+    networks: 
+      - net
+networks:
+  net:
