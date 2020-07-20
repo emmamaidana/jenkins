@@ -63,7 +63,8 @@ plain-credentials
 pmd
 run-condition
 scm-api
-script-security  
+script-security
+ssh  
 ssh-credentials
 structs
 token-macro
