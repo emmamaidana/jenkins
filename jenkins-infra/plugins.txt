@@ -2,6 +2,7 @@ ace-editor
 active-directory
 analysis-core
 ansible
+ansible-tower
 ant
 antisamy-markup-formatter
 apache-httpcomponents-client-4-api
