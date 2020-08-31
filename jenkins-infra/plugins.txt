@@ -61,7 +61,9 @@ pipeline-stage-tags-metadata
 pipeline-stage-view
 pipeline-utility-steps
 plain-credentials
+powershell
 pmd
+rebuild
 run-condition
 scm-api
 script-security
